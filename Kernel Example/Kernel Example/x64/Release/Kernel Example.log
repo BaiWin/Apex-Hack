@@ -1,0 +1,18 @@
+﻿C:\Users\57774\source\repos\Kernel Example\Kernel Example\Kernel Example.vcxproj(114,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+C:\Users\57774\source\repos\Kernel Example\Kernel Example\Kernel Example.vcxproj(175,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1878,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Building 'Kernel Example' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Assembling Opcode.asm...
+  hook.cpp
+C:\Users\57774\source\repos\Kernel Example\Kernel Example\hook.cpp(12,9): warning C4189: 'function_origin': local variable is initialized but not referenced
+  main.cpp
+  memory.cpp
+C:\Users\57774\source\repos\Kernel Example\Kernel Example\memory.cpp(67,60): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\57774\source\repos\Kernel Example\Kernel Example\memory.cpp(122,13): warning C4189: 'pd': local variable is initialized but not referenced
+  renderer.cpp
+  utils.cpp
+  Generating Code...
+C:\Users\57774\source\repos\Kernel Example\Kernel Example\utils.cpp(86): warning C4715: 'utils::unlink_thread': not all control paths return a value
+  Kernel Example.vcxproj -> C:\Users\57774\source\repos\Kernel Example\x64\Release\KernelExample.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
